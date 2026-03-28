@@ -1,0 +1,42 @@
+export const LEVELS = [
+  {
+    id: 1,
+    title: 'Nivel 1',
+    subtitle: 'Base rápida',
+    tables: [1, 2, 3],
+    description: 'Construye una base firme con las tablas más simples.',
+    targetAccuracy: 70,
+  },
+  {
+    id: 2,
+    title: 'Nivel 2',
+    subtitle: 'Ritmo intermedio',
+    tables: [4, 5, 6],
+    description: 'Consolida velocidad y precisión en resultados frecuentes.',
+    targetAccuracy: 72,
+  },
+  {
+    id: 3,
+    title: 'Nivel 3',
+    subtitle: 'Zona desafío',
+    tables: [7, 8, 9],
+    description: 'Trabaja memoria activa en tablas que suelen costar más.',
+    targetAccuracy: 75,
+  },
+  {
+    id: 4,
+    title: 'Nivel 4',
+    subtitle: 'Potencia final',
+    tables: [10, 11, 12],
+    description: 'Domina patrones avanzados y velocidad de respuesta.',
+    targetAccuracy: 78,
+  },
+  {
+    id: 5,
+    title: 'Nivel Final',
+    subtitle: 'Mezcla total',
+    tables: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    description: 'Reto completo: todas las tablas en un mismo desafío.',
+    targetAccuracy: 80,
+  },
+];
